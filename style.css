@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background: white;
+    padding: 30px;
+}
+
+main{
+    display: flex;
+}
+
+section img{
+    width: 100%;
+    max-width: 400px;
+}
+
+/*mobile*/
+@media screen and (max-width:481px){
+    body{
+        background: aqua;
+    }
+
+    main{
+        flex-direction: column;
+     }
+}
+
+/*extra small device*/
+/*@media(min-width:481px) and (max-width:767px){
+    body{
+        background:  blueviolet;
+    }
+}*/
+
+/*small tablet*/
+@media (min-width:768px) and (max-width:991px){
+    body{
+        background: aquamarine;
+    }
+}
+
+/*tablets e laptop*/
+@media (min-width:992px) and (max-width:1199px){
+    body{
+        background: violet;
+    }
+}
+
+/*desktop*/
+@media (min-width:1200px) and (max-width:1999px){
+    body{
+        background: blue;
+    }
+}
